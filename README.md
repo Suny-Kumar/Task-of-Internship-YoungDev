@@ -1,1 +1,1 @@
-# Task-of-Internship-YoungDev
+# Tasks-of-Internship-YoungDev
