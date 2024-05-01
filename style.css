@@ -1,74 +1,55 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body{
-      background-image: url(bg.jpg);
-      background-size: 100% 740px;
-  }
-  .form-containerh1{
-      font-size: 36px;
-      color: aquamarine;
-  
-  }
-  .form-container{
-      width: 300px;
-      height: 400px;
-      background-color: black;
-      
-      margin-left: 36%;
-      margin-top: 7%;
-      text-align: center;
-      color: white;
-      border-radius: 30PX;
-  }
-  .form-container .text{
-      position: relative;
-      top: 7%;
-  }
-  
-  
-  .input1{
-      border: none;
-      background-color: black;
-      border-bottom: 2px solid white;
-      width: 250px;
-      font-size: 20px;
-      margin-top: 40px;
-      outline: none;
-      color: white;
-  }
-  .input2{
-      border: none;
-      background-color: black;
-      border-bottom: 2px solid white;
-      width: 250px;
-      font-size: 20px;
-      margin-top: 40px;
-      outline: none;
-      color: white;
-  }
-  .text button{
-      width: 250px;
-      height: 40px;
-      background-color: aqua;
-      color: black;
-      border: none;
-      font-size: 24px;
-      border-radius: 25px;
-      margin-top: 20px;
-  }
-  button:hover{
-      border: 3px solid aqua;
-      color: white;
-      font-size: 20px;
-      background-color: black;
-  }
-  p{
-      margin-top: 30px;
-      font-size: 20px;
-  }
-  p span{
-      color: aqua;
-  }
+
+body {
+	font-family: Arial, sans-serif;
+	 background-image: url("bg.jpg");
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+
+.container {
+	max-width: 500px;
+	margin: 50px auto;
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#registration-form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #3e8e41;
+}
+
